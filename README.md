@@ -48,8 +48,6 @@ PreferenceBundle plist (Root.plist)
 		<dict>
 			<key>defaults</key>
 			<string>com.your.identifier</string>
-			<key>key</key>
-			<string>YourCustomColour</string>
 			<key>fallback</key>
 			<string>#ffffff</string>
 			<key>alpha</key>
