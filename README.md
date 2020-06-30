@@ -98,11 +98,11 @@ So an example of checking it, depending on the scenario, could be like this:
     +(BOOL) colourIsWhite:(UIColor*) colour;
     +(UIColor*) colourWithString: (NSString*) colourString;
     +(UIColor *)colourWithString:(NSString *)stringToConvert withFallback:(NSString*) fallback;
-    +(UIColor *)colourWithString:(NSString *)stringToConvert withFallbackColour:(UIColor*) fallback;
+    +(UIColor *) colourWithString:(NSString *)stringToConvert withFallbackColour:(UIColor*) fallback;
     +(UIColor*) colourWithRGBString:(NSString*) stringToConvert;
     +(UIColor *) colourWithHexString:(NSString *)stringToConvert;
     +(BOOL) colourIsLight :(UIColor*) colour;
-    +(UIColor*)interpolateFrom:(UIColor*)startColour toColour:(UIColor*)endColour withPercentage:(float)percentage;
+    +(UIColor*) interpolateFrom:(UIColor*)startColour toColour:(UIColor*)endColour withPercentage:(float)percentage;
     @end
 ```
 
@@ -141,4 +141,4 @@ If you want to add your own implementation instead of using the provided prefere
 ```
 
 ## Authors
-SparkDev 2019
+SparkDev 2020
