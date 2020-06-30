@@ -97,7 +97,7 @@ So an example of checking it, depending on the scenario, could be like this:
     +(BOOL) colourIsBlack:(UIColor*) colour;
     +(BOOL) colourIsWhite:(UIColor*) colour;
     +(UIColor*) colourWithString: (NSString*) colourString;
-    +(UIColor *)colourWithString:(NSString *)stringToConvert withFallback:(NSString*) fallback;
+    +(UIColor *) colourWithString:(NSString *)stringToConvert withFallback:(NSString*) fallback;
     +(UIColor *) colourWithString:(NSString *)stringToConvert withFallbackColour:(UIColor*) fallback;
     +(UIColor*) colourWithRGBString:(NSString*) stringToConvert;
     +(UIColor *) colourWithHexString:(NSString *)stringToConvert;
