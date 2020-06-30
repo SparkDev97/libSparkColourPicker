@@ -84,6 +84,7 @@ So an example of checking it, depending on the scenario, could be like this:
 }
 
 %end
+```
 
 ### 'Helper' methods
 
