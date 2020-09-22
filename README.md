@@ -140,5 +140,79 @@ If you want to add your own implementation instead of using the provided prefere
     @end
 ```
 
+### Preference Cell Colour Preview Styling
+
+It is possible to change the style of the 'preview' in the preferences cells.
+Firstly, the 'gradient' effect can be enabled/disabled using the key "PreviewGradient". This is enabled by default.
+To enable it, simply add it to your preferences plist entry.
+An example would look like this:
+
+PreferenceBundle plist (Root.plist)
+```
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>cellClass</key>
+		<string>SparkColourPickerCell</string>
+		<key>libsparkcolourpicker</key>
+		<dict>
+			<key>defaults</key>
+			<string>com.your.identifier</string>
+			<key>fallback</key>
+			<string>#ffffff</string>
+			<key>alpha</key>
+			<true/>
+            <key>PreviewGradient</key>
+            <false/>
+		</dict>
+		<key>label</key>
+		<string>Your Colour Label</string>
+		<key>key</key>
+		<string>YourCustomColour</string>
+	</dict>
+```
+
+As of *the upcoming* libsparkcolourpicker 1.0.2, there are also multiple other styles that can be enabled.
+These are as follows:
+| ID | Description                   |
+|----|-------------------------------|
+| 0  | **Default** rectangle box preview |
+| 1  | Circle with glow              |
+| 2  | Circle without glow           |
+| 3  | Circle with border            |
+| 4  | Square with glow              |
+| 5  | Square without glow           |
+| 6  | Square with border            |
+
+To set this style, simple set the key "PreviewStyle" in your preferences plist entry.
+An example would look like this:
+
+PreferenceBundle plist (Root.plist)
+```
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>cellClass</key>
+		<string>SparkColourPickerCell</string>
+		<key>libsparkcolourpicker</key>
+		<dict>
+			<key>defaults</key>
+			<string>com.your.identifier</string>
+			<key>fallback</key>
+			<string>#ffffff</string>
+			<key>alpha</key>
+			<true/>
+            <key>PreviewGradient</key>
+            <false/>
+            <key>PreviewStyle</key>
+            <integer>1</integer>
+		</dict>
+		<key>label</key>
+		<string>Your Colour Label</string>
+		<key>key</key>
+		<string>YourCustomColour</string>
+	</dict>
+```
+
 ## Authors
 SparkDev 2020
