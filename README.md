@@ -216,10 +216,12 @@ PreferenceBundle plist (Root.plist)
 
 #### Preview of styles with gradient disabled
 Below is an example of each style (in order 0-6), with "PreviewGradient" set to *false*. Displaying colour rgb(0, 255, 0) (#00ff00).
+
 ![Preview of styles with gradient disabled](https://i.imgur.com/jwcg5On.jpg)
 
 #### Preview of styles with gradient enabled
 Below is an example of each style (in order 0-6), with "PreviewGradient" set to *true*. Displaying colour rgb(0, 255, 0) (#00ff00).
+
 ![Preview of styles with gradient enabled](https://i.imgur.com/aTKd2cM.jpg)
 
 ## Authors
