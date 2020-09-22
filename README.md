@@ -214,5 +214,11 @@ PreferenceBundle plist (Root.plist)
 	</dict>
 ```
 
+#### Preview of styles with gradient enabled
+![Preview of styles with gradient enabled](https://i.imgur.com/jwcg5On.jpg)
+
+#### Preview of styles with gradient disabled
+![Preview of styles with gradient disabled](https://i.imgur.com/aTKd2cM.jpg)
+
 ## Authors
 SparkDev 2020
